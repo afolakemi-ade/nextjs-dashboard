@@ -1,0 +1,37 @@
+.container{
+    min-height: 100vh;
+background: #222222;
+padding: 30px;
+}
+.name{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: aqua;
+    text-align: center;
+}
+.loading{
+    font-size: 28px;
+    color:aquamarine;
+    text-align: center;
+}
+.tableContainer{
+    overflow-x: auto;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #333333;
+    color:aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.table th, .table td{
+    padding: 12px 15px;
+    border: 1px solid #444444;
+    text-align: left;
+}
+.table th{
+    background-color: #444444;
+    font-weight: 600;
+}
