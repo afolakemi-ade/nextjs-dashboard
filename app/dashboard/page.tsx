@@ -6,8 +6,9 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 
+
 export default function NewDashboard() {
-    const [country, setCountry] =useState<any[]>([]);
+    const [country, setCountry] = useState([]);
     const [loading, setLoading] = useState(true);
 
 
